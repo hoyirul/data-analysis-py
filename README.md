@@ -20,8 +20,11 @@ Dataset yang digunakan dapat ditemukan di `day.csv` dan berisi informasi harian 
 1. Pastikan Anda telah menginstal Python dan Streamlit.
 2. Unduh proyek ini ke dalam direktori lokal.
 3. Buka terminal atau command prompt, dan navigasi ke direktori proyek.
-4. Jalankan perintah berikut: (`streamlit run dashboard/dashboard.py`)
-5. Setelah menjalankan perintah tersebut, Anda akan melihat URL lokal yang dapat Anda salin dan tempel ke browser untuk melihat dashboard analisis data sepeda.
+4. Membuat Virtual ENV dengan perintah berikut: (`python -m venv venv`)
+5. Setelah itu jalankan (`source venv/bin/activate`) atau (`venv\Scripts\activate`)
+6. Lalu jalankan perintah (`pip install -r requirements.txt`)
+7. Terakhir jalankan perintah berikut: (`streamlit run dashboard/dashboard.py`)
+8. Setelah menjalankan perintah tersebut, Anda akan melihat URL lokal yang dapat Anda salin dan tempel ke browser untuk melihat dashboard analisis data sepeda.
 
 ## Struktur Proyek
 - `dashboard/`: Direktori yang berisi kode aplikasi Streamlit.
